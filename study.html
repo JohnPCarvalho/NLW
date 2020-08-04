@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proffy | Sua plataforma de estudos online</title>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/partials/page-study.css">
+
+</head>
+<body id="page-study">
+
+    <div id="container">
+        <header class="page-header">
+            <div class="top-bar-container">
+                <a href="/">
+                    <img src="/images/icons/back.svg" alt="Voltar">
+                </a>
+                <img src="/images/logo.svg" alt="Proffy">
+            </div>
+            <div class="header-content">
+                <strong>Esses sao os proffys disponiveis</strong>
+                <form id="search-teachers" action="">
+                    <div class="select-block">
+                        <label for="subject">Materia</label>
+                        <select name="subject" id="subject">
+                            <option value="" disabled="" hidden="">Selecione uma materia</option>
+                            <option value="1">Artes</option>
+                            <option value="2">Biologia</option>
+                            <option value="3">Ciencias</option>
+                            <option value="4">Educacao Fisica</option>
+                            <option value="5">Fisica</option>
+                            <option value="6">Geografia</option>
+                            <option value="7">Historia</option>
+                            <option value="8">Matematica</option>
+                            <option value="9">Portugues</option>
+                            <option value="10">Quimica</option>
+                        </select>
+                    </div>
+                    <div class="select-block">
+                        <label for="weekday">Dia da semana</label>
+                        <select name="weekday" id="weekday">
+                            <option value="" disabled="" hidden="">Selecione uma dia</option>
+                            <option value="0">Domingo</option>
+                            <option value="1">Segunda-feira</option>
+                            <option value="2">Terca-feira</option>
+                            <option value="3">Quarta-feira</option>
+                            <option value="4">Quinta-feira</option>
+                            <option value="5">Sexta-feira</option>
+                            <option value="6">Sabado</option>
+                        </select>
+                    </div>
+                    <div class="input-block">
+                        <label for="time">Hora (de 0 a 24)</label>
+                        <input name="time" type="time" id="time" min="0" max="24" />
+                    </div>
+                    <button type="Submit">Filtrar</button>
+                </form>
+            </div>
+        </header>
+
+        <main>
+            <article class="teacher-item">
+                <header>
+                    <img 
+                        src="https://avatars1.githubusercontent.com/u/34754632?s=460&u=254c0fdfe9da7c6ce85d0b92773c8763046c186a&v=4"
+                        alt="Johnny Carvalho">
+                    <div>
+                        <strong>Johnny Carvalho</strong>
+                        <span>Química</span>
+                    </div>
+                </header>
+            
+                <p>Xonadão no Fleetwood Mac, Beatles, The Cure e Angra.<br><br>Curto muito estudar tecnologia, dá aquele feeling de que podemos criar algo, sabe?
+                Se quiser, posso te ensinar algumas coisas aí, é só chamar, precinho bacana.<br>
+                Dêem uma lida em Clarice Lispector</p>
+            
+                <footer>
+                    <p>Preço/hora<strong>R$ 10,00</strong>
+                    </p>
+                    <button type="button">
+                        <img src="/images/icons/whatsapp.svg" alt="Whatsapp">Entrar em contato
+                    </button>
+                </footer>
+            </article>
+            <article class="teacher-item">
+                <header>
+                    <img 
+                        src="https://avatars1.githubusercontent.com/u/34754632?s=460&u=254c0fdfe9da7c6ce85d0b92773c8763046c186a&v=4"
+                        alt="Johnny Carvalho">
+                    <div>
+                        <strong>Johnny Carvalho</strong>
+                        <span>Desenvolvedor</span>
+                    </div>
+                </header>
+            
+                <p>Xonadão no Fleetwood Mac, Beatles, The Cure e Angra.<br><br>Curto muito estudar tecnologia, dá aquele feeling de que podemos criar algo, sabe?
+                Se quiser, posso te ensinar algumas coisas aí, é só chamar, precinho bacana.<br>
+                Dêem uma lida em Clarice Lispector</p>
+            
+                <footer>
+                    <p>Preço/hora<strong>R$ 10,00</strong>
+                    </p>
+                    <button type="button">
+                        <img src="/images/icons/whatsapp.svg" alt="Whatsapp">Entrar em contato
+                    </button>
+                </footer>
+            </article>
+            <article class="teacher-item">
+                <header>
+                    <img 
+                        src="https://avatars1.githubusercontent.com/u/34754632?s=460&u=254c0fdfe9da7c6ce85d0b92773c8763046c186a&v=4"
+                        alt="Johnny Carvalho">
+                    <div>
+                        <strong>Diego Fernandes</strong>
+                        <span>Desenvolvedor</span>
+                    </div>
+                </header>
+            
+                <p>Xonadão no Fleetwood Mac, Beatles, The Cure e Angra.<br><br>Curto muito estudar tecnologia, dá aquele feeling de que podemos criar algo, sabe?
+                Se quiser, posso te ensinar algumas coisas aí, é só chamar, precinho bacana.<br>
+                Dêem uma lida em Clarice Lispector</p>
+            
+                <footer>
+                    <p>Preço/hora<strong>R$ 10,00</strong>
+                    </p>
+                    <button type="button">
+                        <img src="/images/icons/whatsapp.svg" alt="Whatsapp">Entrar em contato
+                    </button>
+                </footer>
+            </article>
+        </main>
+    </div>
+
+    
+</body>
+</html>
