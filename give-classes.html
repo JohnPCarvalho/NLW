@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./styles/partials/page-give-classes.css">
     <link rel="stylesheet" href="./styles/partials/header.css">
     <link rel="stylesheet" href="./styles/partials/forms.css">
+    <script defer src="/scripts/addField.js"></script>
 </head>
 <body id="page-give-classes">
 
@@ -78,33 +79,9 @@
                 </fieldset>
                 <fieldset id="schedule-items">
                     <legend>Horarios disponiveis
-                        <button id="add-time">+ Novo horario</button>
+                        <button type="button" id="add-time">+ Novo horario</button>
                     </legend>
 
-                    <div class="schedule-item">
-                        <div class="select-block">
-                            <label for="weekday">Dia da semana</label>
-                            <select name="weekday[]" quired>
-                                <option value="">Selecione uma opcao</option>
-                                <option value="0">Domingo</option>
-                                <option value="1">Segunda-feira</option>
-                                <option value="2">Terca-feira</option>
-                                <option value="3">Quarta-feira</option>
-                                <option value="4">Quinta-feira</option>
-                                <option value="5">Sexta-feira</option>
-                                <option value="6">Sabado</option>
-                            </select>
-                        </div>
-                        <div class="input-block">
-                            <label for="time_from">Das</label>
-                            <input type="time" name="time_from[]" required>
-                        </div>
-
-                        <div class="input-block">
-                            <label for="time_to">Ate</label>
-                            <input type="time" name="time_to[]" required>
-                        </div>
-                    </div>
                     <div class="schedule-item">
                         <div class="select-block">
                             <label for="weekday">Dia da semana</label>
@@ -139,7 +116,5 @@
             </footer>
         </main>
     </div>
-
-    
 </body>
 </html>
